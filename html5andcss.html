@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="jqery.js"></script>
+<script>
+// Insert script:
+(function(w, d, s, p, a, c) {
+w.sfButton = w.sfButton || function(){};
+c = d.getElementsByTagName(s)[0];
+a = d.createElement(s);
+a.async=1;
+a.src=p;
+c.parentNode.insertBefore(a, c);
+})(window, document, 'script', '//savefrom.net/js/sf-helper-agent.min.js');
+
+// Text:
+sfButton.text = 'Download';
+
+// Styles:
+sfButton.styles = {
+ color: 'rgba(0,0,0,0.7)',
+ textShadow: '1px 1px 1px rgba(255,255,255,0.4)',
+ fontFamily: 'Arial,Helvetica,sans-serif',
+ fontSize: '12px',
+ borderRadius: '4px',
+ backgroundColor: '#81c200',
+ 'background-image': '-webkit-linear-gradient(#9cd600, #69ae00)',
+ 'background-image': '-moz-linear-gradient(#9cd600, #69ae00)',
+ 'background-image': 'linear-gradient(#9cd600, #69ae00)',
+ border: 'none'
+};
+</script>
+
+<style type="text/css">
+	*{padding:0px;margin: 0px; }
+body{
+   background: url(images/roll.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+h1{background-color: #f4511e;
+color:white;text-align: center;
+font-size: 35px;height: 100px;padding-top:25px;  }
+ul {
+    list-style-type: none;
+    background-color: #f1f1f1;
+}
+
+li {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li.active {
+    background-color: #f4511e;
+    color: white;
+}
+
+li:hover:not(.active) {
+    background-color: #f4511e;
+    color: white;
+}
+.col-sm-4{height:520px;  overflow-y: auto;}
+.btn-primary{background-color: #f4511e;margin-top: 10px;}
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(images/preloader_3.gif) center no-repeat #fff;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div class="col-sm-8 " >
+	<div class="videoframe">
+<iframe id="mainvid" width="100%" height="400" src="https://www.youtube-nocookie.com/embed/Mp0f0zTPLec?rel=0&modestbranding=1&showinfo=1  " frameborder="0" allowfullscreen></iframe>	
+
+<div><button class="btn btn-block btn-primary">WATCH XHTML AND CSS TUTORIAL   click here!!</button></div>
+<div><button class="btn btn-block btn-primary">WATCH JAVASCRIPT TUTORIAL   click here!!</button></div>
+</div>
+
+</div>
+
+<div class="col-sm-4 ">	
+<div id="sidebar">
+<h1>HTML5 & CSS3</h1>
+	<ul>
+		<li  onclick="change(0)">Introduction</li>
+		<li onclick="change(1)">Creating basic template</li>
+		<li  onclick="change(2)">Setting up body</li>
+		<li onclick="change(3)">Adding the meat</li>
+		<li  onclick="change(4)">Attribute</li>
+		<li  onclick="change(5)">Pseudo classes</li>
+		<li  onclick="change(6)">Negatio pseudo-classes</li>
+		<li  onclick="change(7)">CSS3 selectors</li>
+		<li  onclick="change(8)">Laying out website</li>
+		<li  onclick="change(9)">Starting the styling</li>
+		<li  onclick="change(10)">Navigation menu</li>
+        <li  onclick="change(11)">Pretty things</li>
+        <li  onclick="change(12)">Finishing the layout</li>
+        <li  onclick="change(13)">Flexible Box model</li>
+        <li  onclick="change(14)">Styling header</li>
+
+         <li  onclick="change(15)">Finishing Flexible box model</li>
+        <li  onclick="change(16)">Reversing box model</li>
+        <li  onclick="change(17)">More tricks</li>
+        <li  onclick="change(18)">Finshing finally</li>
+
+	<li  onclick="change(19)">Rounded corner</li>
+        <li  onclick="change(20)">Text shadows,gradient</li>
+        <li  onclick="change(21)">Transformation</li>
+
+         <li  onclick="change(22)">Transition</li>
+        <li  onclick="change(23)">Rollover Buttons</li>
+        <li  onclick="change(24)">Javascript and HTML5</li>
+        <li  onclick="change(25)">Query selector</li>
+        	<li  onclick="change(26)">Playing video</li>
+		<li onclick="change(27)">Customize video player</li>
+		<li  onclick="change(28)">Making Skin pretty</li>
+		<li onclick="change(29)">Progress bar</li>
+		<li  onclick="change(30)">Programming the video player</li>
+		<li  onclick="change(31)">Playing and pausing</li>
+		<li  onclick="change(32)">Update progress Bar</li>
+		<li  onclick="change(33)">Finishing video player</li>
+		<li  onclick="change(34)">The canvas</li>
+		<li  onclick="change(35)">Drawing shapes on canvas</li>
+		<li  onclick="change(36)">Gradients on canvas</li>
+        <li  onclick="change(37)">Coustom shapes</li>
+        <li  onclick="change(38)">Text sHadows</li>
+        <li  onclick="change(39)">Transformations</li>
+        <li  onclick="change(40)">Saving and restoring</li>
+
+         <li  onclick="change(41)">Images on canvas</li>
+        <li  onclick="change(42)">Animation for games</li>
+        <li  onclick="change(43)">Drag and Drop</li>
+        <li  onclick="change(44)">Working on drag and drop</li>
+
+	<li  onclick="change(45)">Fininshing drag and drop</li>
+        <li  onclick="change(46)">Spice it up</li>
+        <li  onclick="change(47)">Web storage API</li>
+
+         <li  onclick="change(48)">Web storage API part-2</li>
+        <li  onclick="change(49)">Saving Data</li>
+        <li  onclick="change(50)">Retreing and displaying</li>
+        <li  onclick="change(51)">making something useful</li>
+        <li  onclick="change(52)">Saving data</li>
+
+
+
+	</ul>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+var data=[
+	"https://www.youtube-nocookie.com/embed/Mp0f0zTPLec?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/qseNjA-73Fw?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/eDR7zpVfX_4?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/go5U9wfM9h4?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/a5KD47HDRho?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/0pb81VdSO_E?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/JaLebQ-QDVo?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/tIznbrsfQZQ?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/Q7eoOSZ7JdY?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/P71U-doyzNg?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/8uTNq7fs5-s?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/yNtIO4X6cag?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/tzAEGnBNAn0?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/xgYmccJ61eA?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/bi7ccKky8JU?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/F1uzS6PAjuc?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/iTEgQP87IhQ?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/6L2DQkf0oR8?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/s_4zvAMU4BY?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/fCU641pu6ys?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/ritFiWDm08g?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/jRWGqBUNk_c?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/Ie1h8KgoDtg?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/WCsuxaqpQP8?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/L-FM97j7MyY?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/f15cVPPbjMI?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/Gas8f7dJfWc?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/_JbFcQF5OR4?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/p1bTTHVhlfM?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/d8PRA5kqL9s?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/M9dUfcmpuJY?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/wX0CdtO_1T0?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/6Ag9Gnv0o_8?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/FtvGVpSg4wA?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/wyaEthRt330?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/t51omnjifl0?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/FWB7SF9TM-A?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/1RdNGbfT_ok?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/Pa9ASGA3m8U?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/vU_wNPd3R_Q?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/mqP8aWI758Q?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/HM112U8pOWk?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/4nRg5ljNpsc?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/Kfi3uRJS6hA?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/-2qhd7uJkn8?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/SWR5ojeSmvM?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/e6t-8EoT2HM?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/PN0RgFnRxAQ?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/Xq9KKJfbzg4?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/AUOe6E7GgP8?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/1pz9zExrj5o?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+	"https://www.youtube-nocookie.com/embed/zG-mivHf1_I?rel=0&modestbranding=1&autoplay=1&showinfo=1 ",
+    "https://www.youtube-nocookie.com/embed/Kn_AIiV6Cp0?rel=0&modestbranding=1&autoplay=1&showinfo=1 "
+];
+
+
+var id;
+var y=document.getElementById("mainvid");
+function change(id){y.src=data[id];}
+
+</script>
+
+</body>
+
+</html>
